@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>logic tests</title>
+</head>
+<body>
+<script>
+window.addEventListener("error", function (event) {
+  document.body.textContent = "FAIL " + (event.message || "error");
+});
+</script>
+<script src="questions.js"></script>
+<script src="logic.js"></script>
+<script src="test_logic.js"></script>
+</body>
+</html>
